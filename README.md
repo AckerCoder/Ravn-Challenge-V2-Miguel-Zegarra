@@ -18,16 +18,10 @@
   <h3 align="center">Hi! This is a challenge made by Miguel Zegarra for Ravn</h3>
 
   <p align="center">
-    The challenge was about of building an app with GraphQL, Apollo and other optional technolgies. The app is a Star Wars Character Registry powered by [https://swapi-graphql.netlify.app/] I have chossen ReactJS for a bunch reasons, but the most important is because it's very simple to compile and do some changes while you are working with an API. In my experience working with Android. I have found that we take some several time running the app in the emulator or our phones. This challenge had a deadline of three days. This is why React was the best option for me.
-    <br />
-    <a href="https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra"><strong>Explore the docs »</strong></a>
+    The challenge was about of building an app with GraphQL, Apollo and other optional technolgies. The app is a Star Wars Character Registry powered by https://swapi-graphql.netlify.app/ I have chossen ReactJS for a bunch reasons, but the most important is because it's very simple to compile and do some changes while you are working with an API.
     <br />
     <br />
-    <a href="https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra">View Demo</a>
-    ·
-    <a href="https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra/issues">Request Feature</a>
+    <br />
   </p>
 </p>
 
@@ -42,12 +36,6 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -62,9 +50,9 @@ Here's a blank template to get started:
 
 ### Built With
 
-* [ReactJS]()
-* [Apollo Client]()
-* [GraphQL]()
+* [ReactJS](https://reactjs.org/)
+* [Apollo Client](https://www.apollographql.com/)
+* [GraphQL](https://graphql.org/)
 
 
 
@@ -74,12 +62,7 @@ Here's a blank template to get started:
 To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-
-First of all we have to install all our dependencies.
-* npm
-```sh
-npm install npm@latest -g
-```
+1. You must have npm installed and the npm packages that are listed on the installation section.
 
 ### Installation
 
@@ -89,7 +72,7 @@ git clone https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra.git
 ```
 2. Install NPM packages
 ```sh
-npm install
+npm install react @apollo/react-hooks apollo-boost graphql graphql-tag normalize.css react-apollo react-bootstrap
 ```
 
 
