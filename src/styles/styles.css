@@ -1,0 +1,40 @@
+main{
+    display: flex;
+}
+header{
+    color: white;
+    background-color: #121212;
+    padding: 1em 2em;
+    font-family: Bahnschrift;
+    font-weight: 500;
+}
+.person-previews{
+    border-right-width: 1px;
+    border-color: rgba(0,0,0,0.1);
+    border-right-style: solid;
+    width: 25vw;
+}
+.person-name{
+    font-family: Bahnschrift;
+    font-size: 1.25em;
+}
+.race-from-world{
+    font-family: Bahnschrift;
+    font-weight: 325;
+    font-size: 1em;
+    color: #828282;
+}
+.person{
+    padding: 1em 1em;
+    border-bottom-width: 1px;
+    border-color: rgba(0,0,0,0.1);
+    border-bottom-style: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-icon img{
+    width: 1em;
+    height: 1em;
+}

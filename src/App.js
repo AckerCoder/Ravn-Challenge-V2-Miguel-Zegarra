@@ -1,7 +1,10 @@
 import React from 'react';
 import ApolloClient from 'apollo-boost';
 import {ApolloProvider} from "@apollo/react-hooks";
-import {PeoplePreviewContainer} from "./containers/PeoplePreviewContainer"
+import {PeoplePreviewContainer} from "./containers/PeoplePreviewContainer";
+import {PeopleDetailsContainer} from "./containers/PeopleDetailsContainer";
+import 'normalize.css'
+import './styles/styles.css'
 
 function App() {
 
@@ -11,8 +14,10 @@ function App() {
 
   return (
     <ApolloProvider client = {client}>
+      <header>Ravn Star Wars Registry</header>
       <main>
         <PeoplePreviewContainer/>
+        <PeopleDetailsContainer/>
       </main>
     </ApolloProvider>
   );
