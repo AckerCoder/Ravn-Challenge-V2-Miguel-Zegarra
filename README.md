@@ -12,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="imag/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Hi! This is a challenge made by Miguel Zegarra for Ravn</h3>

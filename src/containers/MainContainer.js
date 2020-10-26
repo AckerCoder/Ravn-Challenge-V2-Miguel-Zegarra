@@ -6,8 +6,7 @@ import{PeopleDetailsContainer} from './PeopleDetailsContainer';
 import * as ReactBootStrap from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export const MainContainer = () => {
-    
+export const MainContainer = () => {    
 
     const [current, setCurrent] = useState(null)
     const [loaded, isLoaded] = useState(false)
@@ -42,7 +41,6 @@ export const MainContainer = () => {
                 </div>
             </div>;
 
-    let autho = true;
     fetchMore({variables:{first: 5, 
         after: data.allPeople.pageInfo.endCursor}, 
         updateQuery: (prevResult, {fetchMoreResult})=>{
@@ -73,8 +71,7 @@ export const MainContainer = () => {
                                 Loading
                             </div>):null}
             </div>
-                        
-    
+                           
             {current?(
                     <div className="current-details-container">
                         <PeopleDetailsContainer current={current}/>
