@@ -1,20 +1,30 @@
 import gql from 'graphql-tag';
 
 export const GET_PEOPLE = gql`
-    query pokemons($first: Int!) {
-    pokemons(first: $first) {
-      id
-      name
-      image
-      maxHP
-      maxCP
-      attacks {
-        special {
+  query people($first: Int = 5, $after: String = null){
+    allPeople(first:$first,after: $after){
+      people{
+        name
+        species{
           name
-          damage
+        }
+        homeworld{
+          name
+        }
+        eyeColor
+        hairColor
+        skinColor
+        birthYear
+        vehicleConnection{
+          edges{
+            node{
+              name
+            }
+          }
         }
       }
     }
-  } 
+        
+  }
   
 `

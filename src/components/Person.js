@@ -9,7 +9,7 @@ export const Person = ({person})=>{
                     <span>{person.name}</span>
                 </div>
                 <div className = "race-from-world">
-                    <span>{person.maxHP} from {person.maxCP}</span>
+                    <span>{person.species?person.species.name:"Human"} from {person.homeworld.name}</span>
                 </div>
             
             </div>

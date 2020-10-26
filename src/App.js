@@ -8,7 +8,7 @@ import './styles/styles.css'
 function App() {
 
   const client = new ApolloClient({
-    uri: "https://graphql-pokemon2.vercel.app/"
+    uri: "https://swapi-graphql.netlify.app/.netlify/functions/index"
   })
   
 
