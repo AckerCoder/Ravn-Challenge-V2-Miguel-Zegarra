@@ -23,6 +23,10 @@ export const GET_PEOPLE = gql`
           }
         }
       }
+      pageInfo{
+        endCursor
+        hasNextPage
+      }
     }
         
   }
