@@ -31,7 +31,7 @@ export const PeopleDetailsContainer = ({current}) => {
             <div>
                 <h3>Vehicles</h3>
                 {current.vehicleConnection?current.vehicleConnection.edges.map(vehicle=>{
-                return<div className="ly-section-information" key={current.birthYear + current.id}>
+                return<div className="ly-section-information" >
                     <span className="tag-info">{vehicle.node.name}</span>
                 </div>
                 }):<span></span>}

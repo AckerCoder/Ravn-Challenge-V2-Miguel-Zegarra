@@ -13,12 +13,13 @@ export const Person = ({person})=>{
                 </div>
             
             </div>
-                <button>
+                <button >
                     <div className = "arrow-icon" >
                         <img src={arrow} alt={person.name}></img>
                     </div>
                 </button>
         </div>
+
 
     )
 }
