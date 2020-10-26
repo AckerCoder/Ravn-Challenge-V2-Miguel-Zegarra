@@ -1,18 +1,9 @@
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra">
-    <img src="imag/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Hi! This is a challenge made by Miguel Zegarra for Ravn</h3>
@@ -80,53 +71,17 @@ npm install react @apollo/react-hooks apollo-boost graphql graphql-tag normalize
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+1.- When we open the web app and everything goes fine with the API, we will see an screen like this in out desktop computer or laptop.
+<img src="img/screen1.png" alt="Logo" width="80" height="80">
+2.- We can click in the character that we want to display information
+<img src="img/screen2.png" alt="Logo" width="80" height="80">
+3.- This little program is powered by an awesome third party; therefore, if we see a messa like this one is because of the API was deprecated or it's in maintenance.
+<img src="img/screen3.png" alt="Logo" width="80" height="80">
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - armando.zegarra@ucsp.edu.pe
-
-Project Link: [https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra](https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
+Miguel Zegarra  - ackercoder@gmail.com
 
