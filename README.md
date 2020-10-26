@@ -70,11 +70,17 @@ npm install react @apollo/react-hooks apollo-boost graphql graphql-tag normalize
 ## Usage
 
 1.- When we open the web app and everything goes fine with the API, we will see an screen like this in out desktop computer or laptop.
+<br/>
 <img src="src/img/screen1.png" alt="Logo" width="800" height="400">
+<br/>
 2.- We can click in the character that we want to display information
+<br/>
 <img src="src/img/screen2.png" alt="Logo" width="800" height="400">
+<br/>
 3.- This little program is powered by an awesome third party; therefore, if we see a messa like this one is because of the API was deprecated or it's in maintenance.
+<br/>
 <img src="src/img/screen3.png" alt="Logo" width="800" height="400">
+<br/>
 
 
 
