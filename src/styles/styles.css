@@ -33,8 +33,46 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
+.ly-section-information{
+    width: 40vw;
+}
 .arrow-icon img{
     width: 1em;
     height: 1em;
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.current-person{
+    padding: 1em 7em;
+}
+
+.current-person h3{
+    font-family: Bahnschrift;
+}
+
+.ly-section-information{
+    margin-bottom: 2em;
+    font-family: Bahnschrift;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color:  rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:1em;
+}
+
+.ly-section-information .tag-info{
+    color: #828282;
+}
+
+.ly-section-information .info{
+    color: #121212;
+}
+
+.main-container{
+    display: flex;
 }

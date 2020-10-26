@@ -1,15 +1,35 @@
 import React from 'react';
-import { useQuery } from '@apollo/react-hooks';
-import { GET_PEOPLE } from '../graphql/get-people';
-import {Person} from  '../components/Person';
 
-export const PeopleDetailsContainer = () => {
-    const {data: {pokemons = []} = {}} = useQuery(GET_PEOPLE, 
-        {variables: {first: 9}
-    })
-    console.log(pokemons)
+export const PeopleDetailsContainer = (props) => {
     return(
         <div className="current-person">
+            <div className="general-information">
+                <h3>General Information</h3>
+                <div className="ly-section-information">
+                    <span className="tag-info">Eye Color</span>
+                    <span className="info">{props.name}</span>
+                </div>
+                <div className="ly-section-information">
+                    <span className="tag-info">Hair Color</span>
+                    <span className="info">{props.name}</span>
+                </div>
+                <div className="ly-section-information">
+                    <span className="tag-info">Skin Color</span>
+                </div>
+                <div className="ly-section-information">
+                    <span className="tag-info">Birth Year</span>
+                </div>
+
+            </div>
+            <div>
+                <h3>Vehicles</h3>
+                <div className="ly-section-information">
+                    <span className="tag-info">Birth Year</span>
+                </div>
+                <div className="ly-section-information">
+                    <span className="tag-info">Birth Year</span>
+                </div>
+            </div>
         </div>
     )
 }
