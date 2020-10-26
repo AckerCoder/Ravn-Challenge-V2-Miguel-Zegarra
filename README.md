@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/AckerCoder/Ravn-Challenge-V2-Miguel-Zegarra">
-    <img src="img/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Hi! This is a challenge made by Miguel Zegarra for Ravn</h3>
@@ -31,8 +31,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -72,11 +70,11 @@ npm install react @apollo/react-hooks apollo-boost graphql graphql-tag normalize
 ## Usage
 
 1.- When we open the web app and everything goes fine with the API, we will see an screen like this in out desktop computer or laptop.
-<img src="img/screen1.png" alt="Logo" width="80" height="80">
+<img src="src/img/screen1.png" alt="Logo" width="80" height="80">
 2.- We can click in the character that we want to display information
-<img src="img/screen2.png" alt="Logo" width="80" height="80">
+<img src="src/img/screen2.png" alt="Logo" width="80" height="80">
 3.- This little program is powered by an awesome third party; therefore, if we see a messa like this one is because of the API was deprecated or it's in maintenance.
-<img src="img/screen3.png" alt="Logo" width="80" height="80">
+<img src="src/img/screen3.png" alt="Logo" width="80" height="80">
 
 
 
